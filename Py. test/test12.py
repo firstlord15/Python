@@ -1,0 +1,40 @@
+from colorama import Fore, Back, Style
+from colorama import  init 
+init()
+
+
+print(Fore.BLACK)
+print(Fore.CYAN)
+a = input ('Делал это Ашимов Ратмир 8В(Напишите что угодно или да): ')
+if a == 'да':
+    print(Fore.GREEN)
+    print(Back.BLACK)
+    print("  *** ")
+    print(" ***")
+    print("**** ")
+    print("*@  @**")
+    print("* \/*")
+    print("***")
+    print(" ***")
+    print("  ***")
+    print("  |    |")
+    print("  |    | ")
+    print("  |    | ")
+    print("   \_   \_")
+else:
+    print(Fore.RED)
+    print(Back.BLACK)
+    print("  *** ")
+    print(" ***")
+    print("**** ")
+    print("*@  @**")
+    print("* \/*")
+    print("***")
+    print(" ***")
+    print("  ***")
+    print("  |    |")
+    print("  |    | ")
+    print("  |    | ")
+    print("   \_   \_")
+
+input()
