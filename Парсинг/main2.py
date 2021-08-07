@@ -26,6 +26,6 @@ answ_bs = BS(answ.content, "html.parser")
 
 print("Имя: {}\nУровень: {}\nОпыт: {}".format(
 	answ_bs.select(".user-menu__name")[0].text.strip(),
-	answ_bs.select(".user-menu__info-text--lvl"+"1")[0].text.strip(),
+	answ_bs.select(".user-menu__info-text--lvl")[0].text.strip(),
 	answ_bs.select(".user-menu__info-text--exp")[0].text.strip()
 ) )
