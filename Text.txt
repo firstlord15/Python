@@ -14,5 +14,8 @@ this is my fault - это моя вина
 next time we will win - в следующий раз мы победим
 settle - успокойся
 how I smelled it! - как чуял!
+<<<<<<< HEAD
 
 test proverka 2
+=======
+>>>>>>> 69162cd761c77091b86d231259c9b6953bd952e2
